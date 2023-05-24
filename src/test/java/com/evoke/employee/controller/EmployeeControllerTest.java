@@ -137,26 +137,6 @@ public class EmployeeControllerTest {
 		response.andExpect(MockMvcResultMatchers.status().isOk()).andDo(print());
 	}
 
-//	@DisplayName(" jUnit Test for updateEmployee Rest API.")
-//	@Test
-//	public void givenUpdateEmployee_whenUpdateEmployee_thenReturnUpdateEmployeeObject() throws Exception {
-//
-//		long employeeId = 1L;
-//		Employee employee = new Employee();
-//		employee.setName("Sai");
-//		employee.setEmail("Sai@gmail.com");
-//		employee.setDesignation("Techanical Associate");
-//		employee.setDoj("25-03-2023");
-//		employee.setSalary(24000);
-//	   
-//		mockMvc.perform(MockMvcRequestBuilders.put("/employees/{id}", employeeId)
-//				 .contentType(MediaType.APPLICATION_JSON)
-//				 .content()
-//				 .andExpect(MockMvcResultMatchers.status().isOk());
-//		
-//		verify(employeeServiceImpl).updateEmployee(employee, employeeId);
-//			
-//
-//	}
+
 
 }
